@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import BookForm from "./BookForm.jsx";
 import BookList from "./BookList.jsx";
 
-export const API_BASE = "https://bookshelf-api-lime.vercel.app/";
+export const API_BASE = "https://bookshelf-api-lime.vercel.app";
 
 function App() {
   const [books, setBooks] = useState([]);
@@ -105,3 +105,4 @@ function App() {
 }
 
 export default App;
+
